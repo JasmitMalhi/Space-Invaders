@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Space Invaders</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <canvas id="myCanvas" width="800" height="800"></canvas>
+
+  <audio id="shootSound">
+    <source src="/other media/shoot.wav" type="audio/mpeg">
+  </audio>
+  <audio id="webSound">
+    <source src="/Spiderman/web sound.mp3" type="audio/mpeg">
+  </audio>
+  <div id="counterDisplay"></div>
+  <table>
+    <tr>
+      <td>
+
+        <div id="homescreen">
+          <div class="center" id="gameButtons">
+            <table id="gameMenu" border=0>
+              <tr>
+                <td colspan="2">
+                  <div id="text">
+                    <center>
+                      <h1 id="gameTitle">Space Invaders</h1>
+                    </center>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <button id="spiderman" onclick="spiderman()">Spiderman</button>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <button id="cops" onclick="cops()">Cops and Robbers</button>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="2" id=center>
+                  <button id="normal" onclick="normal()">Regular<br>(Default Character)</button>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div id="charSelect">
+            <table border=0>
+              <tr>
+                <td>
+                  <h1>Choose a character (regular mode)</h1>
+                </td>
+              </tr>
+              <tr>
+                <td><button id="ship" onclick="jet()">
+                    <img src="/base game/jet.png" alt="Image Button"> </button>
+                </td>
+              </tr>
+              <tr>
+                <td><button id="ship" onclick="bluespaceship()">
+                    <img src="/base game/bluespaceship.png" alt="Image Button"> </button>
+                </td>
+              </tr>
+              <tr>
+                <td><button id="ship" onclick="otherbluespaceship()">
+                    <img src="/base game/otherbluespaceship.png" alt="Image Button"> </button>
+                </td>
+              </tr>
+               
+      <td id=johnny></td>
+  </table>
+  </div>
+  </div>
+        
+  <script src="script.js"></script>
+  <script src="spiderman.js"></script>
+  <script src="Cops.js"></script>
+  <script src="script jet.js"></script>
+  <script src="bluespaceship.js"></script>
+  <script src="otherbluespaceship.js"></script>
+
+</body>
+
+
+</html>
