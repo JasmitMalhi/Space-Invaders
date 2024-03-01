@@ -1,0 +1,138 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+}
+
+
+body {
+      background-color: #000000;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+ color: white;
+    }
+
+#myCanvas {
+  display: none;
+  border: 1px solid #ffffff;
+}
+
+
+
+#spiderman {
+  border-radius: 10px;
+  padding: 22px 30px;
+  background-color: #ff0000;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#normal {
+  border-radius: 10px;
+  padding: 22px 30px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+}
+
+#cops {
+  border-radius: 10px;
+  padding: 22px 30px;
+  background-color: #008ee6;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#counterDisplay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 24px;
+  color: white
+}
+
+canvas {
+  display: block;
+  margin: auto;
+  position :absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0
+}
+
+  table {
+      border-spacing: 20px; 
+    }
+
+#homescreen {
+  text-align: center;
+}
+
+#spiderman {
+  width: 200px;
+}
+
+#ship {
+  border-radius: 10px;
+}
+
+#otherShip{
+  border-radius: 10px;
+  width: 40px;
+}
+
+#charSelect{
+  width: 100%;
+}
+
+.center {
+  margin: auto;
+  width: 41.5%;
+  padding: 10px;
+}
+
+.johnny {
+  margin: auto;
+  width: 41.5%;
+  border: 3px solid white;
+  padding: 10px;
+}
+
+#message {
+  color: red;
+  text-align: center;
+  font-family: cursive;
+}
+
+#gameoverMenu {
+  width: 15%;
+}
+
+.buttonunderline {
+  text-decoration: none;
+}
+
+
+#message2 {
+  color: #72fe16;
+  text-align: center;
+    font-family: cursive;
+
+}
+.buttonunderline2 {
+  text-decoration: none;
+}
